@@ -24,7 +24,7 @@ class DomainChecker
     public function __construct($strict = false)
     {
         $this->strict = $strict;
-        $this->loadDomains();
+        return $this->loadDomains();
     }
 
     /**
