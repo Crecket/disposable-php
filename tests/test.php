@@ -7,7 +7,7 @@ class test extends PHPUnit_Framework_TestCase
     public function testLoading()
     {
         // Create object
-        $DomainChecker = new Crecket\DisposablePHP\DomainChecker(true);
+        $DomainChecker = new \Crecket\DisposablePHP\DomainChecker(true);
         echo "\nCreated domainCheck object\n";
 
         // Return the domains list
@@ -22,7 +22,7 @@ class test extends PHPUnit_Framework_TestCase
     public function testEmails()
     {
         // Create object
-        $DomainChecker = new Crecket\DisposablePHP\DomainChecker(true);
+        $DomainChecker = new \Crecket\DisposablePHP\DomainChecker(true);
         echo "\nCreated domainCheck object\n";
 
         // Get domains list as array
