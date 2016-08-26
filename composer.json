@@ -1,0 +1,35 @@
+{
+  "name": "crecket/disposable-php",
+  "description": "A php class to check if a domain is listed on https://github.com/andreis/disposable",
+  "license": "WTFPL",
+  "homepage": "https://github.com/Crecket/disposable-php",
+  "authors": [
+    {
+      "name": "Gregory Goijaerts",
+      "email": "crecketgaming@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "andreis/disposable": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "andreis/disposable",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/andreis/disposable",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Crecket\\DisposablePHP\\": "src/"
+    }
+  }
+}
