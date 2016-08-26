@@ -3,5 +3,5 @@ php:
     - "5.6"
 script: phpunit tests/test.php
 install:
-    - composer self-update
+    - composer self-update -o
     - composer update --prefer-dist
