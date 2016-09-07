@@ -1,3 +1,4 @@
 vendor/
 .idea/
 /phpunit-5.5.4.phar
+/phpunit.phar
